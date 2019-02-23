@@ -1,0 +1,13 @@
+#ifndef __VULKANENGINE_EXAMPLES_ROUTES__
+#define __VULKANENGINE_EXAMPLES_ROUTES__
+
+#define VULKANENGINE_EXAMPLES_IMAGES_ROUTE\
+  std::string("@PROJECT_SOURCE_DIR@/resources/images/")
+
+#define VULKANENGINE_EXAMPLES_MESHES_ROUTE\
+  std::string("@PROJECT_SOURCE_DIR@/resources/meshes/")
+
+#define VULKANENGINE_EXAMPLES_SPV_ROUTE\
+  std::string("@PROJECT_SOURCE_DIR@/spvs/")
+
+#endif /* __VULKANENGINE_EXAMPLES_ROUTES__ */
